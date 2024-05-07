@@ -21,8 +21,8 @@ type Props = {
   feedbackColor?: string;
 };
 
-const defaultBackgroundColor = '#f7f8ff';
-const defaultTextColor = '#303235';
+const defaultBackgroundColor = '#101820';
+const defaultTextColor = '#ffffff';
 const defaultFontSize = 16;
 
 Marked.setOptions({ isNoP: true });
