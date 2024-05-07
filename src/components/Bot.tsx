@@ -96,7 +96,7 @@ export type LeadsConfig = {
   successMessage?: string;
 };
 
-const defaultWelcomeMessage = 'Hi there! How can I help?';
+const defaultWelcomeMessage = 'Goedendag, welkom bij DHPS! Ik ben uw digitale assistent, hoe kan ik u vandaag van dienst zijn?';
 
 /*const sourceDocuments = [
     {
