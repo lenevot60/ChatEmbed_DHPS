@@ -15,7 +15,7 @@ type Props = {
   fontSize?: number;
 };
 
-const defaultBackgroundColor = '#aaacae';
+const defaultBackgroundColor = '#d5d7d7';
 const defaultTextColor = '#101820';
 const defaultFontSize = 16;
 
