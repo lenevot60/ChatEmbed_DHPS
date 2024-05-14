@@ -421,8 +421,8 @@ textarea {
 }
 
 .cloud {
-  width: 400px;
-  height: calc(100% - 50px);
+  width: 600px;
+  height: calc(100% - 90px);
   border-radius: 0.5rem;
   display: flex;
   justify-content: center;
