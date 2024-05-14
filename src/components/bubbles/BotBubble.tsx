@@ -23,7 +23,7 @@ type Props = {
 
 const defaultBackgroundColor = '#000000';
 const defaultTextColor = '#ffffff';
-const defaultFontSize = 22;
+const defaultFontSize = 20;
 
 Marked.setOptions({ isNoP: true });
 
@@ -168,7 +168,7 @@ export const BotBubble = (props: Props) => {
           style={{
             'background-color': props.backgroundColor ?? defaultBackgroundColor,
             color: props.textColor ?? defaultTextColor,
-            'border-radius': '2px',
+            'border-radius': '6px',
             'font-size': props.fontSize ? `${props.fontSize}px` : `${defaultFontSize}`,
           }}
         />

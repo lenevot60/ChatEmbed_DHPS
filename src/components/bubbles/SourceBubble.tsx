@@ -17,7 +17,7 @@ export const SourceBubble = (props: Props) => (
         style={{
           width: 'max-content',
           'max-width': '80px',
-          'font-size': '13px',
+          'font-size': '20px',
           'border-radius': '15px',
           cursor: 'pointer',
           'text-overflow': 'ellipsis',
