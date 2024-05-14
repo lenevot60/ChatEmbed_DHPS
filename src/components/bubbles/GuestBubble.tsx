@@ -16,7 +16,7 @@ type Props = {
 };
 
 const defaultBackgroundColor = '#d5d7d7';
-const defaultTextColor = '#101820';
+const defaultTextColor = '#000000';
 const defaultFontSize = 16;
 
 Marked.setOptions({ isNoP: true });

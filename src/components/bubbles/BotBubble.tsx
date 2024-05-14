@@ -21,7 +21,7 @@ type Props = {
   feedbackColor?: string;
 };
 
-const defaultBackgroundColor = '#101820';
+const defaultBackgroundColor = '#000000';
 const defaultTextColor = '#ffffff';
 const defaultFontSize = 16;
 
