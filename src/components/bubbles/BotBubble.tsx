@@ -169,7 +169,9 @@ export const BotBubble = (props: Props) => {
             'background-color': props.backgroundColor ?? defaultBackgroundColor,
             color: props.textColor ?? defaultTextColor,
             'border-radius': '6px',
-            'font-size': props.fontSize ? `${props.fontSize}px` : `${defaultFontSize}`,
+            'font-size': props.fontSize ? `${props.fontSize}px` : `${defaultFontSize}px`,
+            width: props.width ? `${props.width}px` : 'auto', // Breedte van de bubble
+            height: props.height ? `${props.height}px` : 'auto', // Hoogte van de bubble
           }}
         />
       )}
